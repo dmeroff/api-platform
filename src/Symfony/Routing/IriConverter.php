@@ -18,10 +18,10 @@ use ApiPlatform\Api\ResourceClassResolverInterface as LegacyResourceClassResolve
 use ApiPlatform\Api\UriVariablesConverterInterface as LegacyUriVariablesConverterInterface;
 use ApiPlatform\Exception\InvalidArgumentException;
 use ApiPlatform\Exception\InvalidIdentifierException;
-use ApiPlatform\Exception\ItemNotFoundException;
 use ApiPlatform\Exception\OperationNotFoundException;
 use ApiPlatform\Exception\RuntimeException;
 use ApiPlatform\Metadata\CollectionOperationInterface;
+use ApiPlatform\Metadata\Exception\ItemNotFoundException;
 use ApiPlatform\Metadata\Get;
 use ApiPlatform\Metadata\GetCollection;
 use ApiPlatform\Metadata\HttpOperation;
